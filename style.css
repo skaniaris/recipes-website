@@ -1,0 +1,64 @@
+/*homepage adjustments*/
+
+.homepage{
+    background-color:rgb(37, 34, 34); 
+}
+
+.recipes {
+    color:wheat; 
+    font-size: 45px;
+
+}
+
+.links {
+    color: teal; 
+}
+
+/* Pancake page adjustments */
+
+.bg {
+    background-color: burlywood;
+    color:rgb(58, 30, 11); 
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+}
+
+.pancakelink {
+    color:teal; 
+}
+
+/* Donut page adjustments */
+
+.donut {
+    background-color: pink;
+    color:white;
+    font-size: 20px; 
+}
+
+.donut .text {
+    color:brown;  
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.text.title {
+    font-size: 65px; 
+    font-family:cursive; 
+}
+
+/* Cinnamon roll page adjustments*/
+
+.cinn{
+    background-color: lemonchiffon;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px; 
+}
+
+.title {
+    color:midnightblue; 
+    font-family:'Courier New', Courier, monospace; 
+}
+
+.cinnroll {
+    height:auto; 
+    width: 600px;  
+}
