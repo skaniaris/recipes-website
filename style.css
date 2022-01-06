@@ -1,64 +1,99 @@
-/*homepage adjustments*/
-
-.homepage{
-    background-color:rgb(37, 34, 34); 
+/* colors */
+:root {
+  --espresso: rgb(75, 45, 11);
 }
 
-.recipes {
-    color:wheat; 
-    font-size: 45px;
+/* universal */
 
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--espresso);
 }
 
-.links {
-    color: teal; 
+.recipe h1 {
+  font-size: 1.5rem;
+  margin: 1rem 0 0.5rem 10rem;
 }
 
-/* Pancake page adjustments */
-
-.bg {
-    background-color: burlywood;
-    color:rgb(58, 30, 11); 
-    font-family:Georgia, 'Times New Roman', Times, serif; 
+.recipe {
+  display: flex;
+  flex-direction: column;
 }
 
-.pancakelink {
-    color:teal; 
+.recipe img {
+  width: 700px;
+  margin-left: 10rem;
+  margin-bottom: 1rem;
 }
 
-/* Donut page adjustments */
-
-.donut {
-    background-color: pink;
-    color:white;
-    font-size: 20px; 
+.text {
+  width: 50vw;
+  margin-top: 10px;
+  margin-left: 10rem;
 }
 
-.donut .text {
-    color:brown;  
-    font-size: 25px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+/* index body*/
+
+.homepage {
+  background-image: url(/img/gingham.jpg);
 }
 
-.text.title {
-    font-size: 65px; 
-    font-family:cursive; 
+/* nav */
+
+h1 a {
+  display: inline-block;
+  color: var(--espresso);
+  margin: 0 0 20px 0;
+  font-style: italic;
+  font-size: 2rem;
 }
 
-/* Cinnamon roll page adjustments*/
-
-.cinn{
-    background-color: lemonchiffon;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px; 
+nav {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 15vh;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  border-bottom: var(--espresso) solid 3px;
+  margin-bottom: 3;
 }
 
-.title {
-    color:midnightblue; 
-    font-family:'Courier New', Courier, monospace; 
+.links ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  width: 100vw;
+  font-weight: bold;
 }
 
-.cinnroll {
-    height:auto; 
-    width: 600px;  
+.links ul li a {
+  text-decoration: none;
+  color: var(--espresso);
 }
+
+/* main */
+
+.images img {
+  width: 500px;
+  margin: 0 10px 0 10px;
+  align-self: center;
+}
+
+.images {
+  display: flex;
+  width: 100vw;
+  height: 85vh;
+  justify-content: center;
+  align-content: center;
+}
+
+/* pancake */
+
+/* donut */
+
+/* cinn */
